@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="bean_id" class="ioc_with_xml.apna_class"/>
+<!--    <bean id="bean_id" class="ioc_with_xml.apna_class"/>-->
+
+    <bean id="a1" class="ioc_with_xml.apna_class">
+    <property name="classid" value="1"></property>
+    <property name="className" value="Galgotias"></property>
+    </bean>
+
+    <bean id="a2" class="ioc_with_xml.apna_class">
+        <property name="classid" value="2"></property>
+        <property name="className" value="Langotia"></property>
+    </bean>
+
+</beans>
